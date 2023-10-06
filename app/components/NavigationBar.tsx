@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import router from 'next/router';
+import { Signingbutton } from './SigningButton';
 
 
 interface NavbarProps {
@@ -19,19 +20,21 @@ const NavigationBar = ({ logo, companyName, navItems }: NavbarProps) => {
         <h1 className="ml-2 text-xl font-medium font-mono text-black">{companyName}</h1>
       </div>
 
-      <ul className="flex space-x-4">
+      <ul className="flex space-x-8">
         {navItems.map((navItem) => (
-          <li key={navItem}>
+          <li key={navItem} >
             <a
               href={navItem == "Home" ? "/" : `/${navItem.toLowerCase()}`}
-              className="text-gray-700 hover:text-gray-900"
+              className="text-gray-700 hover:text-gray-900 text-lg font-medium"
               onClick={() => router.push(navItem)}
             >
               {navItem}
             </a>
           </li>
         ))}
+        <Signingbutton OnClick={() => alert("coming soon")} />
       </ul>
+
     </nav>
 
   );
