@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <NavigationBar
-          logo="/logo.jpg"
+          logo="/images/logo.jpg"
           companyName="Centient Technologies"
           navItems={["Home", "About", "Contact"]}
         />
