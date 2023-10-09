@@ -23,7 +23,7 @@ export default function RootLayout({
         <NavigationBar
           logo="/images/logo.jpg"
           companyName="Centient Technologies"
-          navItems={["Home", "About", "Contact"]}
+          navItems={["Services", "About", "Contact"]}
         />
         {children}
       </body>
