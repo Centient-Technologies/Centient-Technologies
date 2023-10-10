@@ -27,7 +27,7 @@ const About = () => {
             </div>
             <CompanyManagementSection />
             <ReviewsSection />
-            <NewsLetterSection />
+            {/* <NewsLetterSection /> */}
 
         </main>
     );
