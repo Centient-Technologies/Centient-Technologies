@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import NavigationBar from './components/NavigationBar'
+import NewsLetterSection from './about/components/NewsLetterSection/NewsLetterSection'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,6 +27,7 @@ export default function RootLayout({
           navItems={["Services", "About", "Contact"]}
         />
         {children}
+        <NewsLetterSection />
       </body>
     </html>
   )
