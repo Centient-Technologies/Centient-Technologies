@@ -32,7 +32,7 @@ export default function ServicesSection() {
             <div key={service.title} className="group flex flex-col mb-3">
                 <Image src={service.image} alt={service.alt} width={500} height={500}></Image>
               <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                  <span className="absolute inset-0" />
+                  <span className="inset-0" />
                   {service.title}
               </h3>
               <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{service.info}</p>
