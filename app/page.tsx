@@ -1,8 +1,17 @@
+import CompanyManagementSection from "./about/components/CompanyManagementSection";
+import LandingPageSection from "./about/components/LandingPageSection/LandingPageSection";
+import NewsLetterSection from "./about/components/NewsLetterSection/NewsLetterSection";
+import ReviewsSection from "./about/components/ReviewsSection/ReviewsSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Home Page</h1>
+    <main >
+      <div>
+        <LandingPageSection statement="Centient Technologies is a leading software engineering company that delivers cutting-edge web applications, mobile apps, data analytics solutions, and more to clients worldwide" />
+      </div>
+      <CompanyManagementSection />
+      <ReviewsSection />
+      <NewsLetterSection />
     </main>
   )
 }
