@@ -9,10 +9,10 @@ const CompanyManagementSection = () => {
                     <p className="mt-6 text-lg leading-8 text-gray-600">Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae elementum enim vitae ullamcorper suspendisse.</p>
                 </div>
                 <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
-                    <TeamMember name="Kirston Kwasi-Kumah" position="Co-Founder / CEO" imgSrc="/images/kirston.jpg">{ }</TeamMember>
-                    <TeamMember name="David Okyere Agyakwa" position="Co-Founder / CTO" imgSrc="/images/dave.jpg">{ }</TeamMember>
-                    <TeamMember name="Naa Kai Odametey" position="Co-Founder / MO" imgSrc="/images/naa.jpg">{ }</TeamMember>
-                    <TeamMember name="Anthony Basignaa" position="Co-Founder / Director Design" imgSrc="/images/anthony.JPG">{ }</TeamMember>
+                    <TeamMember name="Kirston Kwasi-Kumah" position="CEO, Chief Executive Officer" imgSrc="/images/kirston.jpg">{ }</TeamMember>
+                    <TeamMember name="David Okyere Agyakwa" position="CTO, Chief Technology Office" imgSrc="/images/dave.jpg">{ }</TeamMember>
+                    <TeamMember name="Emma Naa Kai Odametey" position="COO, Chief Operations Officer" imgSrc="/images/naa.jpg">{ }</TeamMember>
+                    <TeamMember name="Anthony Nwintiribu Basingnaa Jnr" position="CDO, Chief Design Officer" imgSrc="/images/anthony.JPG">{ }</TeamMember>
                     {/* <!-- More people... --> */}
                 </ul>
             </div>

@@ -13,7 +13,6 @@ export default function Home() {
       <FeaturesSection />
       <CompanyManagementSection />
       <ReviewsSection />
-      <NewsLetterSection />
     </main>
   )
 }
