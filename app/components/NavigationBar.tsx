@@ -23,10 +23,11 @@ const NavigationBar = ({ logo, companyName, navItems }: NavbarProps) => {
         </Link>
       </div>
 
-      <ul className="flex space-x-8">
+      <ul className="flex space-x-8 items-center">
+        <Link href="/" className="text-gray-700 hover:text-gray-900 text-lg font-medium">Home</Link>
         {navItems.map((navItem) => (
           <li key={navItem} >
-            <Link href={ `/${navItem.toLowerCase()}`} className="text-gray-700 hover:text-gray-900 text-lg font-medium">
+            <Link href={`/${navItem.toLowerCase()}`} className="text-gray-700 hover:text-gray-900 text-lg font-medium">
               {navItem}
             </Link>
           </li>
