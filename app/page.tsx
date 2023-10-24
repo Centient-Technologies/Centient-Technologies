@@ -1,7 +1,6 @@
 import CompanyManagementSection from "./about/components/CompanyManagementSection";
 import LandingPageSection from "./components/LandingPageSection/LandingPageSection";
 import NewsLetterSection from "./about/components/NewsLetterSection/NewsLetterSection";
-import ReviewsSection from "./about/components/ReviewsSection/ReviewsSection";
 import FeaturesSection from "./components/FeaturesSection";
 
 export default function Home() {
@@ -12,7 +11,7 @@ export default function Home() {
       </div>
       <FeaturesSection />
       <CompanyManagementSection />
-      <ReviewsSection />
+  
     </main>
   )
 }

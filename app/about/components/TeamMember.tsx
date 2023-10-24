@@ -4,10 +4,10 @@ interface TeamMemberProps {
     imgSrc: string;
     name: string;
     position: string;
-    children: React.ReactNode
+    // children: React.ReactNode
 }
 
-const TeamMember = ({ imgSrc, name, position, children }: TeamMemberProps) => {
+const TeamMember = ({ imgSrc, name, position, }: TeamMemberProps) => {
     return (
         <li>
             <div className="flex items-center gap-x-6">
@@ -17,7 +17,7 @@ const TeamMember = ({ imgSrc, name, position, children }: TeamMemberProps) => {
                     <p className="text-sm font-semibold leading-6 text-indigo-600">{position}</p>
                 </div>
             </div>
-            {children}
+            {/* {children} */}
         </li>
     );
 }
