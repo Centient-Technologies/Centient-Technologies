@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import MissionStatementSection from './components/MissionStatementSection/MissionStatementSection';
 import CompanyManagementSection from './components/CompanyManagementSection';
-import ReviewsSection from './components/ReviewsSection/ReviewsSection';
 import NewsLetterSection from './components/NewsLetterSection/NewsLetterSection';
 
 
@@ -26,7 +25,6 @@ const About = () => {
 
             </div>
             <CompanyManagementSection />
-            <ReviewsSection />
         </main>
     );
 }

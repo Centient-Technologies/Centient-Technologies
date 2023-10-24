@@ -35,6 +35,27 @@ export default function ContactPage() {
                             </div>
                         </div>
 
+                        {/* <html>
+                             <head>
+                                <title>Simple Map</title>
+                                <link rel="stylesheet" type="text/css" href="style.css" />
+
+                                 <script async
+                                src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=maps,marker&v=beta">
+                                </script>
+
+                                <script>
+                                    function initMap() {
+                                        console.log('Maps JavaScript API loaded.');
+                                    }
+                                </script>
+
+                             </head>
+                         <body>
+                             <gmp-map center="37.4220656,-122.0840897" zoom="10" map-id="DEMO_MAP_ID"></gmp-map>
+                        </body>
+                        </html> */}
+
                     </div>
                 </div>
 
