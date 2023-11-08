@@ -1,9 +1,12 @@
 import Image from 'next/image';
+import Link from 'next/link';
+
 
 interface LandingPageSectionProps {
     statement: string;
 
 }
+
 
 const LandingPageSection = ({ statement }: LandingPageSectionProps) => {
     return (
@@ -14,7 +17,9 @@ const LandingPageSection = ({ statement }: LandingPageSectionProps) => {
                     <div>
                         <h1 className="text-7xl font-bold text-black">Engineering the Future with Centient Technologies</h1>
                         <p className="text-xl py-4 text-zinc-900" >  {statement}</p>
-                        <button className="flex text-white bg-blue-800 rounded-md py-4 px-12 font-medium hover:bg-blue-600 my-0">View All Services</button>
+                        <Link href={'/services'}>
+                            <button className="flex text-white bg-blue-800 rounded-md py-4 px-12 font-medium hover:bg-blue-600 my-0">View All Services</button>
+                        </Link>
                     </div>
                 </div>
             </div>
