@@ -78,7 +78,7 @@ const FeaturesSection = () => {
                         </ul>
                     </div>
                     
-                    <Image src="/images/mission_statement.webp" className="max-w-sm min-h-fit rounded-lg shadow-2xl" alt='{"mission-statement-img"}' height={125} width={150} />
+                    <Image src="/images/woman.png" className="max-w-sm min-h-fit rounded-lg shadow-2xl" alt='{"mission-statement-img"}' height={125} width={200} />
                 </div>
             </div>
         </div>
