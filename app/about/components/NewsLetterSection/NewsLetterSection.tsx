@@ -31,7 +31,7 @@ const NewsLetterSection = () => {
                                 </svg>
                             </div>
                             <dt className="mt-4 font-semibold text-white">No spam</dt>
-                            <dd className="mt-2 leading-7 text-gray-400">Rest assured, we respect your privacy and won't bombard your inbox with unwanted emails. Your data is safe with us.</dd>
+                            <dd className="mt-2 leading-7 text-gray-400">Rest assured, we respect your privacy and will not bombard your inbox with unwanted emails. Your data is safe with us.</dd>
                         </div>
                     </dl>
                 </div>
