@@ -11,7 +11,7 @@ const CompanyManagementSection = () => {
                 <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
                     <TeamMember name="Kirston Kwasi-Kumah" position="CEO, Chief Executive Officer" imgSrc="/images/kirston.jpg" />
                     <TeamMember name="David Okyere Agyakwa" position="CTO, Chief Technology Office" imgSrc="/images/dave.jpg" />
-                    <TeamMember name="Emma Naa Kai Odametey" position="COO, Chief Operations Officer" imgSrc="/images/naa.jpg" />
+                    {/* <TeamMember name="Emma Naa Kai Odametey" position="COO, Chief Operations Officer" imgSrc="/images/naa.jpg" /> */}
                     <TeamMember name="Anthony Nwintiribu Basingnaa Jnr" position="CDO, Chief Design Officer" imgSrc="/images/anthony.JPG" />
                     {/* <!-- More people... --> */}
                 </ul>
